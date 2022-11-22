@@ -5,34 +5,31 @@ import {
   Stack,
   Text,
   ChakraProvider,
-  Button,
 } from "@chakra-ui/react";
 import * as React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
   <ChakraProvider>
     <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
       <Stack spacing={{ base: "4", md: "5" }}>
         <Stack justify="space-between" direction="row">
-          //add logo here
           <ButtonGroup variant="ghost">
             <IconButton
               as="a"
-              href="#"
+              href="https://www.linkedin.com/in/morgan-woods-b57bb6240/"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize="1.25rem" />}
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://github.com/MorganWoods618"
               aria-label="GitHub"
               icon={<FaGithub fontSize="1.25rem" />}
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://twitter.com/MorganWoods618"
               aria-label="Twitter"
               icon={<FaTwitter fontSize="1.25rem" />}
             />

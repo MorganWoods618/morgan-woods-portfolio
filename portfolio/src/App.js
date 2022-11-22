@@ -14,7 +14,6 @@ function App() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/resume" element={<ResumePage />} />
-
       </Routes>
     </Layout>
   );

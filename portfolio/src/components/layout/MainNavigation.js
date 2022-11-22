@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 import {
   Center,
   VStack,
-  Heading,
   Tabs,
   Tab,
   TabList,
-  TabPanel,
-  TabPanels,
   ChakraProvider,
 } from "@chakra-ui/react";
 
@@ -17,7 +14,7 @@ function MainNavigation() {
     <ChakraProvider>
       <Center bg="black" color="white" padding={8}>
         <VStack spacing={7}>
-          <Tabs variant="soft-rounded" colorScheme="red">
+          <Tabs variant="soft-rounded" colorScheme="green">
             <Center>
               <TabList>
                 <Tab>
