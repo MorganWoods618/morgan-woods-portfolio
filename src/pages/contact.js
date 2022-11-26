@@ -34,7 +34,6 @@ export default function ContactFormWithSocialButtons() {
         borderRadius="lg"
         m={{ base: 5, md: 16, lg: 10 }}
         p={{ base: 5, lg: 16 }}
-        
         >
         <Box>
           <VStack spacing={{ base: 4, md: 8, lg: 20 }}>
