@@ -32,7 +32,7 @@ function AboutMePage() {
           />
             <Heading size="md">Morgan Woods Portfolio</Heading>
             <Text>
-       I am a graduate student from the University of Utah Full Stack Web Development Bootcamp currenly looking for a job in the field. In my free time I love to travel and play video games!        
+       I am a student at the University of Utah Full Stack Web Development course, about to graduate. I am currenly looking for a job in the field. In my free time I love to travel and play video games!        
             </Text>
           </Stack>
         </CardBody>
